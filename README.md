@@ -57,7 +57,7 @@ fuinorg/docker-maven-java-app     0.1.0-SNAPSHOT
 fuinorg/docker-maven-java-app     latest
 ```
 
-Now run the application by 
+Now run the application by typing:
 
 ```
 docker run \
