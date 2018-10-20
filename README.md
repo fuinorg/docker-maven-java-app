@@ -18,7 +18,7 @@ This project shows how to automate the creation of a Docker image with a Java co
 - Uses [logback](https://logback.qos.ch/) for logging
   - Creates a "logback.xml" configuration automatically if it does not exist. This allows a user to configure the log level for multiple runs of the container. 
   - Log file is created in the mounted directory of the host.
-- Multi module Maven project with [parent](./), [main](main/) application and [test](test/) project
+- Multi module Maven project with parent (this directory), [main](main/) application and [test](test/) project
 
 ## Build
 Checkout the project and build it using the [Takari Maven Wrapper](https://github.com/takari/maven-wrapper).
