@@ -1,6 +1,9 @@
 # docker-maven-java-app
 A dockerized Java standalone application with Maven build
 
+[![Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Java Development Kit 1.8](https://img.shields.io/badge/JDK-1.8-green.svg)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 ## What is this?
 This project shows how to automate the creation of a Docker image with a Java command line application using Maven.
 
