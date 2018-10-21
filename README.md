@@ -22,6 +22,9 @@ This project shows how to automate the creation of a Docker image with a Java co
   - Creates a "logback.xml" configuration automatically if it does not exist. This allows a user to configure the log level for multiple runs of the container. 
   - Log file is created in the mounted directory of the host.
 
+## Archetype
+You can use the [docker-maven-java-app-archetype](https://github.com/fuinorg/docker-maven-java-app-archetype) to create your own project based on this example-
+
 ## Build
 Checkout the project and build it using the [Takari Maven Wrapper](https://github.com/takari/maven-wrapper).
 
