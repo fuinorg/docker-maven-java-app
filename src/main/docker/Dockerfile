@@ -1,5 +1,5 @@
 FROM openjdk:8-jre
-MAINTAINER fuin.org
+MAINTAINER fuinorg
 COPY maven /usr/src/${appname}
 VOLUME ["/usr/src/${appname}/data"]
 WORKDIR /usr/src/${appname}
